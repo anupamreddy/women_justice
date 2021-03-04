@@ -1,0 +1,456 @@
+h2{
+color:"red";
+text-align:center;
+}
+body{
+margin:none;
+//text-align:center;
+}
+.h22
+{
+font-family:'Squada One';
+}
+.head
+{
+background-color:#5edfff;
+padding:1px 1px 1px 1px;
+line-height:0px;
+font-family: 'Rubik';
+}
+.title
+{
+position:relative;
+text-align:center;
+font-size:60px;
+}
+.subhead{
+position:relative;
+left:850px;
+}
+hr
+{
+border-style:dotted;
+border-bottom:none;
+width:70%;
+}
+.navbar-brand
+{
+font-size:25px;
+}
+.img1{
+height:200px;
+}
+.about{
+float:right;
+height:300px;
+width:600px;
+}
+P{
+font-size:17px;
+font-family:'Chivo';
+}
+.middle
+{
+background-color:#eaf6f6;
+padding:0px 0px 20px 0px;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 10px;
+  cursor: pointer;
+  border-radius:30px;
+}
+.feature-box
+{
+text-align:center;
+padding:3%;
+}
+.container-fluid
+{
+padding:1% 5%
+}
+.pd
+{
+text-align:center;
+}
+.job
+{
+text-align:center;
+}
+.projpic
+{
+height:80px;
+}
+.jobpic
+{
+height:80px;
+}
+.contract
+{
+text-align:center;
+}
+.button1 {
+  background-color: #40bad5;
+  border: none;
+  color:#160f30 ;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px 10px;
+  cursor: pointer;
+  border-radius:30px;
+}
+
+.button2{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: right;
+    margin-right: 30px;
+}
+
+.button3 {
+  background-color: #40bad5;
+  border: none;
+  color: black;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  cursor: pointer;
+  margin-bottom:10px;
+  border-radius:30px;
+}
+
+.contractimg
+{
+height:80px;
+}
+.bottom-container
+{
+  text-align: center;
+line-height:10px;
+background-color:#66BFBF;
+padding:50px 0px 20px 0px;
+}
+.footer-link
+{
+margin:10px 20px;
+}
+
+.card {
+  box-shadow: 0 1px 4px 0;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.appl{
+  background-color:#eaf6f6;
+}
+
+.application_heading{
+  font-size: 70px;
+  font-family: 'Dancing Script' ;
+  color: #163172;
+}
+
+.apply_body{
+font-size:17px;
+font-family: 'Merriweather', serif;
+font-weight:500;
+}
+
+.apply_box{
+       width: 50%;
+       border-radius: 5px;
+       text-align:center;
+       background-color: #f9f9f9;
+}
+
+.apply_box:hover{
+  box-shadow: 4px 4px 20px #40bad5;
+}
+
+.job_table{
+  text-align: center;
+  width:100%;
+}
+
+.job_table th{
+  font-size:20px;
+  background-color: #40bad5;
+  color: black;
+}
+
+.j_head{
+color:white;background-color:#202060;padding:10px;font-family: 'Noto Serif', serif;
+}
+
+.j_body{
+  background-color: #202060;
+}
+
+.inputtext{
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  padding: 8px 20px 8px 30px;
+  width:300px;
+}
+
+.inputtext1{
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 8px 20px 8px 30px;
+  width:400px;
+  background-color: #fafafa;
+  background-image: url('https://image.flaticon.com/icons/svg/456/456178.svg');
+  background-size: 40px;
+  background-position: 350px 0px;
+  background-repeat: no-repeat;
+}
+
+.inputselect{
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  width:300px;
+  padding: 8px 8px;
+}
+
+.inputarea{
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.login_card{
+  width: 50%;
+  border-radius: 5px;
+  background-color: #40bad5;
+  border-color:;
+  border-style: ;
+  border-radius: 10px;
+}
+
+.utext,.upass{
+  width: 94%;
+  padding: 12px 20px;
+  margin: 8px 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.contractor_pic{
+  width: 40%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contractor_button{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  margin-left: 70px;
+}
+
+.budget_pic{
+  width: 10%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.choice_pic{
+  width: 30%;
+  border-radius: 0%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login_back{
+  background-image: -webkit-linear-gradient(65deg, #40bad5 50%, #40bad5 50%);
+}
+
+.choice_body{
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #035aa6 50%, #40bad5 50%);
+  min-height: 1000px;
+  font-family: 'Prompt', sans-serif;
+}
+
+.proj_card{
+     margin: 0px auto 30px auto;
+     width: 66%;
+    box-shadow: 1px 1px 5px black;
+     border-radius: 5px;
+     background-color: white;
+}
+
+.proj_card_head{
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  text-align: center;
+  font-family: 'Kalam', cursive;
+  font-size:30px;
+}
+
+.proj_table{
+  margin-left:40px;
+  width:90%;
+  border:1px;
+}
+
+.td_c1{
+  width:30%;
+  font-size: 17px;
+  font-family: 'Play', sans-serif;
+}
+
+.td_c2{
+  width:70%;
+  font-weight:500;
+}
+
+.proj_body{
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #A683E3 50%);
+  min-height: 100%;
+}
+
+.admin_pic{
+  margin:30px;
+  width:30%;
+}
+
+
+.admin-button{
+  background-image: linear-gradient(45deg,grey, black, grey);
+  width:20%;
+  border:1px solid;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 17px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.error_card{
+  width: 30%;
+  background: #af0404;
+  border-radius: 5px;
+  color:white;
+}
+
+.error_card1{
+  width: 30%;
+  background: #79d70f;
+  border-radius: 5px;
+  color:black;
+}
+
+.error_card2{
+  width: 200px;
+  background: #af0404;
+  border-radius: 5px;
+  color:white;
+}
+
+#testimonials {
+  width:100%;
+
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#t1{
+  background: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url('https://content.techgig.com/thumb/msid-74381141,width-860,resizemode-4/5-best-women-safety-apps-you-must-have.jpg?110492');
+  background-repeat: no-repeat;
+  background-attachment: center;
+  background-size: 100% 100%;
+  height:400px;
+  color:#160f30;
+}
+
+#t2{
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('https://www.centuryks.com/sites/default/files/image-uploads/budgetplanning-cent.jpg');
+  background-repeat: no-repeat;
+  background-attachment: center;
+  background-size: 100% 100%;
+  height:350px;
+  color:#272121;
+  font-size:40px;
+}
+
+#t3{
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('https://images.wallpaperscraft.com/image/alarm_clock_clock_dial_117449_2560x1080.jpg');
+  background-repeat: no-repeat;
+  background-attachment: center;
+  background-size: 100% 100%;
+  height:350px;
+  color:#160f30;
+}
+
+#t4{
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('https://www.vocoli.com/media/18343/sharepoint-employee-engagement-program.png');
+  background-repeat: no-repeat;
+  background-attachment: center;
+  background-size: 100% 100%;
+  height:350px;
+  color:#160f30;
+}
