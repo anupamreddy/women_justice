@@ -1,10 +1,10 @@
 <html>
 <head>
-    {%	load static	%}
     <meta charset="utf-8">
     <title>
         Women Justice
     </title>
+    {%	load static	%}
     <link rel="icon" href="favicon 1.ico">
     <link href="https://fonts.googleapis.com/css?family=Acme|Chivo|Rubik|Squada+One|Noto+Serif:ital|Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&Balsamiq+Sans&family=Merriweather&family=Questrial&family=Righteous&family=Lobster&family=Acme&family=Play:wght@700&family=Kalam:wght@700&display=swap" rel="stylesheet">
@@ -21,40 +21,37 @@
     <h1 class="navbar-brand" style="color:white;">Women Justice</h1>
     <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-            <a class="nav-link" href="/" style="color:white;"><input type="button" class="button4" style="" name="signin" value="Logout"></a>
+            <a class="nav-link" href="index" style="color:white;">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contractor.html" style="color:white;">Victim</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="login" style="color:white;">Police</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="admin_login" style="color:white;">Admin</a>
         </li>
     </ul>
 </nav>
 
-<div class="choice_body">
-  <div class="row" style="margin-left:240px">
-  <div class="pricing-column col-lg-5">
-  <div class="card" style="margin-top:170px;">
-    <div class="card-header">
-      <h3 align="center">Case</h3>
-    </div>
-    <div class="card-body">
-      <img class="choice_pic" src="C:\Users\marut\Downloads\women_justice\images\complaint.svg"><br>
-      <center><h4>Facing trouble? <br> Register a new case here</h4></center>
-      <form action="{% url 'account:file_case' %}" method="post">
-      <input type="submit" name="a1" class="contractor_button" value="Register">
-      </form>
-    </div>
+<body class="login_back">
+  <div>
+    <h2 style="font-family: 'Righteous', cursive;margin:30px auto;font-weight:500;font-size:40px">POLICE LOGIN</h2>
   </div>
+  <div style="margin:auto;" class="login_card">
+    <img class="contractor_pic" src="https://www.flaticon.com/svg/vstatic/svg/2561/2561978.svg?token=exp=1614827727~hmac=5f0926e01a1219b81b484815c67c2029">
+    <form action="/" method="post">
+      <label for="uname" style="font-size:17px"><b>&nbsp;&nbsp;&nbsp;username</b></label><br>
+      <input type="text" name="uname" class="utext" placeholder="Enter username"><br>
+      <label for="psw" style="font-size:17px"><b>&nbsp;&nbsp;&nbsp;Password</b></label><br>
+      <input type="password" placeholder="Enter Password" class="upass" name="psw" required><br>
+      <center>
+        <div id="ec" class="error_card">
+        </div>
+      </center>
+      <button type="submit" class="contractor_button">Login</button><br>
+    </form>
   </div>
-  <div class="pricing-column col-lg-5">
-  <div class="card" style="margin-top:170px;">
-    <div class="card-header">
-      <h3 align="center">Check</h3>
-    </div>
-    <div class="card-body">
-      <img class="choice_pic" src="https://image.flaticon.com/icons/svg/2910/2910452.svg"><br>
-    <center><h4>Check the progress of complained <br> case</h4></center>
-      <form action="" method="post">
-      <input type="submit" name="a1" class="contractor_button" value="Check">
-      </form>
-    </div>
-  </div>
-  </div>
-  </div>
-</div>
+</body>
+</html>
