@@ -12,4 +12,5 @@ urlpatterns = [
     path('police_logout/',auth_views.LogoutView.as_view(),name="police_logout"),
     path('signup/',views.signup,name="signup"),
     path('dashboard/',views.dashboard,name="dashboard"),
+    path('file_case/',views.file_case,name="file_case"),
 ]

@@ -42,7 +42,7 @@
   </div>
   <div style="margin:auto;" class="login_card">
     <img class="contractor_pic" src="https://www.flaticon.com/svg/vstatic/svg/2922/2922561.svg?token=exp=1614830758~hmac=4125491ce7cb7b0db743b57daaff938a">
-    <form action="/" method="post">
+    <form action="{% url 'account:victim_login' %}" method="post">
       <label for="uname" style="font-size:17px"><b>&nbsp;&nbsp;&nbsp;username</b></label><br>
       <input type="text" name="uname" class="utext" placeholder="Enter username"><br>
       <label for="psw" style="font-size:17px"><b>&nbsp;&nbsp;&nbsp;Password</b></label><br>
@@ -51,6 +51,7 @@
         <div id="ec" class="error_card">
         </div>
       </center>
+      {% csrf_token %}
       <button type="submit" class="contractor_button">Login</button><br>
       <p style="display:inline-block;margin-right:10px;">Not have an account?</p><a href="{% url 'account:signup' %}"><input type="button" name="signin" value="signup" style="display:inline-block"></a>
     </form>

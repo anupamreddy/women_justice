@@ -39,7 +39,7 @@
 <div>
   <h2 style="font-family: 'Righteous', cursive;margin:30px auto;font-weight:500;font-size:40px">SIGNUP</h2>
 </div>
-<form action="/signup" method="post">
+<form action="{% url 'account:signup' %}" method="post">
   <center>
     <div class="apply_box">
       <table class="job_table" cellpadding="10px">
@@ -89,6 +89,7 @@
         </tr>
 
       </table>
+      {% csrf_token %}
       <center>
       <button type="submit" class="button1" name="button"><b>Apply</b></button>
       <br><br>
