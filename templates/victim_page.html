@@ -40,7 +40,7 @@
     <h2 style="font-family: 'Righteous', cursive;margin:30px auto;font-weight:500;font-size:40px">VICTIM LOGIN</h2>
   </div>
   <div style="margin:auto;" class="login_card">
-    <img class="contractor_pic" src="C:\Users\marut\Downloads\women_justice\images\women.svg">
+    <img class="contractor_pic" src="{% static 'img/women.svg' %}">
     <form action="{% url 'account:victim_login' %}" method="post">
       <label for="uname" style="font-size:17px"><b>&nbsp;&nbsp;&nbsp;username</b></label><br>
       <input type="text" name="uname" class="utext" placeholder="Enter username"><br>

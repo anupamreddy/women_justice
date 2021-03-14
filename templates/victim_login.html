@@ -41,7 +41,7 @@
     <h2 style="font-family: 'Righteous', cursive;margin:30px auto;font-weight:500;font-size:40px">VICTIM LOGIN</h2>
   </div>
   <div style="margin:auto;" class="login_card">
-    <img class="contractor_pic" src="https://www.flaticon.com/svg/vstatic/svg/2922/2922561.svg?token=exp=1614830758~hmac=4125491ce7cb7b0db743b57daaff938a">
+    <img class="contractor_pic" src="{% static 'img/women.svg' %}">
     <form action="{% url 'account:victim_login' %}" method="post">
       <label for="uname" style="font-size:17px"><b>&nbsp;&nbsp;&nbsp;username</b></label><br>
       <input type="text" name="uname" class="utext" placeholder="Enter username"><br>

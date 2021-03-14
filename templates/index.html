@@ -78,18 +78,18 @@
 
     <br>
 
-    <div class="pd"><img class="projpic" src="https://www.flaticon.com/svg/vstatic/svg/2922/2922561.svg?token=exp=1614827553~hmac=0467512cc03d2e7ff51422afb6b69202"><br><br>
+    <div class="pd"><img class="projpic" src="{% static 'img/victim.svg' %}"><br><br>
         <h2>Victim Login</h2><br>
         <p>You can safely login here <br> and file the complaint on the Abuse</p><a href="{%	url	'account:victim_login'	%}"><input type="button" class="button" value="Victim Login"></a></p>
     </div>
     <hr><br>
-    <div class="contract"><img class="contractimg" src="https://www.flaticon.com/svg/vstatic/svg/2561/2561978.svg?token=exp=1614827727~hmac=5f0926e01a1219b81b484815c67c2029"><br><br>
+    <div class="contract"><img class="contractimg" src="{% static 'img/police.svg' %}"><br><br>
         <h2>Police Login</h2><br>
         <p>Login here to check the complaints</p>
         <a href="{%	url	'account:police_login'	%}"><input type="button" class="button" value="Police Login"></a>
     </div>
     <hr><br>
-    <div class="contract"><img class="contractimg" src="https://www.flaticon.com/svg/vstatic/svg/1548/1548322.svg?token=exp=1614828671~hmac=10b7ed20fcccb3d2ea7cb9514511f325"><br><br>
+    <div class="contract"><img class="contractimg" src="{% static 'img/admin.png' %}"><br><br>
         <h2>Police Admin Login</h2><br>
         <p>Login here to check the complaints <br>and manage them</p>
         <a href="{%	url	'account:police_login'	%}"><input type="button" class="button" value="Police Login"></a>
